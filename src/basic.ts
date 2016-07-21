@@ -1,13 +1,7 @@
-
-import {Component, Injectable} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'basic',
-  templateUrl: './basic.html',
-
+  template: 'Hello world!',
 })
-@Injectable()
-export class Basic {
-  ctxProp: string;
-  constructor() { this.ctxProp = 'initial value'; }
-}
+export class Basic {}
